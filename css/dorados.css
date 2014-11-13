@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?uwsxvj");
+  src: url("fonts/icomoon.eot?#iefixuwsxvj") format('embedded-opentype'), url("fonts/icomoon.woff?uwsxvj") format('woff'), url("fonts/icomoon.ttf?uwsxvj") format('truetype'), url("fonts/icomoon.svg?uwsxvj#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-size: 16px;
+  font-family: arial;
+  background: #fff;
+}
+header {
+  background: #104b6e;
+  border-bottom: 3px solid #ffa500;
+  position: relative;
+}
+header figure {
+  vertical-align: top;
+  width: 60px;
+  margin: 0;
+  background: #fff;
+  display: inline-block;
+}
+header figure img {
+  width: 95%;
+  margin: 3px 0 0 0;
+}
+header div.titulos {
+  margin-left: 3px;
+  margin-top: 5px;
+  vertical-align: top;
+  width: 230px;
+  display: inline-block;
+  color: #fff;
+}
+header div.titulos h1 {
+  margin: 0;
+  font-size: 18px;
+}
+header div.titulos h2 {
+  margin: 0;
+  font-size: 12px;
+  font-style: italic;
+}
+header div.menu {
+  position: absolute;
+  width: 25px;
+  top: 10px;
+  right: 3px;
+}
+header div.menu p {
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  background: #fff;
+}
+section.mision {
+  margin-top: 20px;
+}
+section.mision figure {
+  width: 90%;
+  margin: 0 auto;
+}
+section.mision figure img {
+  width: 100%;
+}
+section.mision h2 {
+  text-align: center;
+}
+section.mision p {
+  text-align: right;
+  line-height: 1.3em;
+  font-style: italic;
+  padding: 0 5px 0 0;
+}
+section.carreras {
+  background: #104b6e;
+}
+section.carreras div.contenedorBolita {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+section.carreras div.contenedorBolita div.bolita {
+  width: 140px;
+  height: 140px;
+  background: #ffa500;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+section.carreras div.contenedorBolita div.bolita h2 {
+  font-size: 18px;
+}
+section.carreras div.contenedorBolita div.bolita h3 {
+  font-size: 14px;
+}
+section.carreras div.contenedorBolita div.bolita p:after {
+  content: "";
+}
+section.carreras div.contenedorBolita div.bolita:hover {
+  transform: translateX(-80px);
+  transition: all 2s ease-in-out;
+}
+section.carreras div.contenedorBolita div.textoCarrera {
+  position: absolute;
+  width: 160px;
+  color: #fff;
+  top: 0;
+  right: -160px;
+  font-size: 14px;
+}
